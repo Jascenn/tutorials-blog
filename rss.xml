@@ -5,7 +5,7 @@
     <link>https://jascenn.github.io/tutorials-blog</link>
     <description>基于 GitHub Pages 的教程博客</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 19 Sep 2025 21:00:48 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 21:02:51 GMT</lastBuildDate>
     <atom:link href="https://jascenn.github.io/tutorials-blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第一篇教程</title>
@@ -45,17 +45,17 @@
       <category>写作</category>
     </item>
     <item>
-      <title>README</title>
-      <link>https://jascenn.github.io/tutorials-blog/blog/README</link>
-      <guid isPermaLink="true">https://jascenn.github.io/tutorials-blog/blog/README</guid>
-      <pubDate>Fri, 19 Sep 2025 21:00:48 GMT</pubDate>
+      <title>123E</title>
+      <link>https://jascenn.github.io/tutorials-blog/blog/123E</link>
+      <guid isPermaLink="true">https://jascenn.github.io/tutorials-blog/blog/123E</guid>
+      <pubDate>Fri, 19 Sep 2025 21:02:51 GMT</pubDate>
       <description># Public-Web 文件夹整理说明  本文档说明了 `public-web` 文件夹的新组织结构，所有文件已按功能和用途进行分类整理。  ## 📁 目录结构  ### 🚚 express-management-system/ **…</description>
     </item>
     <item>
       <title>tutor_test</title>
       <link>https://jascenn.github.io/tutorials-blog/blog/tutor_test</link>
       <guid isPermaLink="true">https://jascenn.github.io/tutorials-blog/blog/tutor_test</guid>
-      <pubDate>Fri, 19 Sep 2025 21:00:48 GMT</pubDate>
+      <pubDate>Fri, 19 Sep 2025 21:02:51 GMT</pubDate>
       <description>所罗门博客 https://codecodex.ai/ https://github.com/Wei-Shaw/codecodex.ai  https://use.codecodex.ai/admin-next/api-stats 按使用教…</description>
     </item>
   </channel>
