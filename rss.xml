@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教程博客 Tutorials</title>
+    <link>https://jascenn.github.io/tutorials-blog</link>
+    <description>基于 GitHub Pages 的教程博客</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 19 Sep 2025 20:49:03 GMT</lastBuildDate>
+    <atom:link href="https://jascenn.github.io/tutorials-blog/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>部署联通性测试</title>
+      <link>https://jascenn.github.io/tutorials-blog/blog/deploy-check</link>
+      <guid isPermaLink="true">https://jascenn.github.io/tutorials-blog/blog/deploy-check</guid>
+      <pubDate>Sat, 20 Sep 2025 00:00:00 GMT</pubDate>
+      <description>这是一篇用于验证 GitHub Pages 发布链路是否正常的测试文章。</description>
+      <category>部署</category>
+      <category>验证</category>
+    </item>
+    <item>
+      <title>使用 Next.js + GitHub Pages 搭建教程博客</title>
+      <link>https://jascenn.github.io/tutorials-blog/blog/hello-next</link>
+      <guid isPermaLink="true">https://jascenn.github.io/tutorials-blog/blog/hello-next</guid>
+      <pubDate>Sat, 20 Sep 2025 00:00:00 GMT</pubDate>
+      <description>从零创建一个基于 Next.js 静态导出的教程博客，并通过 GitHub Pages 自动部署。</description>
+      <category>Next.js</category>
+      <category>GitHub Pages</category>
+      <category>博客</category>
+    </item>
+    <item>
+      <title>Markdown 基础与写作规范</title>
+      <link>https://jascenn.github.io/tutorials-blog/blog/markdown-basics</link>
+      <guid isPermaLink="true">https://jascenn.github.io/tutorials-blog/blog/markdown-basics</guid>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 GMT</pubDate>
+      <description>快速掌握 Markdown 的标题、强调、代码块等常用语法，并提供教程写作建议。</description>
+      <category>Markdown</category>
+      <category>写作</category>
+    </item>
+  </channel>
+</rss>
