@@ -21,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav>
               <Link href="/blog">教程</Link>
               <Link href="/tags">标签</Link>
+              <Link href="/search">搜索</Link>
               <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
             </nav>
           </div>

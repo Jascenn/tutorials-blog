@@ -24,7 +24,7 @@ jobs:
 
       - name: Build static site
         env:
-          NEXT_BASE_PATH: ${{ secrets.NEXT_BASE_PATH }}
+          NEXT_BASE_PATH: /${{ github.event.repository.name }}
         run: npm run build
 
       - name: Deploy to gh-pages
@@ -33,4 +33,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
           publish_branch: gh-pages
-

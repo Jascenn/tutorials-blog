@@ -6,7 +6,7 @@ export async function generateStaticParams() {
   return posts.map(p => ({ slug: p.slug }));
 }
 
-export default async function PostPage({ params }: { params: { slug: string }}) {
+export default async function PostPage({ params }: any) {
   const post = await getPostBySlug(params.slug);
   if (!post) return notFound();
   return (

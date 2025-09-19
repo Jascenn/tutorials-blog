@@ -4,11 +4,12 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "preview": "python3 -m http.server -d out 3000 || python -m http.server -d out 3000",
-    "new:post": "node scripts/new-post.mjs"
+    "new:post": "node scripts/new-post.mjs",
+    "deploy:gh": "bash scripts/deploy-gh-pages.sh"
   },
   "dependencies": {
     "next": "15.3.5",

@@ -24,6 +24,11 @@ export interface Post extends PostMeta {
 
 const contentDir = path.join(process.cwd(), 'content');
 
+// Cache for posts to avoid repeated file reads in production
+let postsCache: PostMeta[] | null = null;
+let postsCacheTime = 0;
+const CACHE_TTL = process.env.NODE_ENV === 'production' ? 60 * 60 * 1000 : 0; // 1 hour in prod, 0 in dev
+
 function normalizeDate(input: unknown): string {
   if (!input) return '';
   try {
@@ -70,6 +75,12 @@ async function mdToHtml(md: string): Promise<{ html: string; toc: { id: string; 
 }
 
 export async function getAllPosts(): Promise<PostMeta[]> {
+  // Return cached posts if valid
+  const now = Date.now();
+  if (postsCache && (now - postsCacheTime) < CACHE_TTL) {
+    return postsCache;
+  }
+
   const files = await fs.readdir(contentDir);
   const posts: PostMeta[] = [];
   for (const file of files) {
@@ -85,7 +96,14 @@ export async function getAllPosts(): Promise<PostMeta[]> {
       excerpt: data.excerpt || content.replace(/\r?\n/g, ' ').slice(0, 120) + '…',
     });
   }
-  return posts.sort((a, b) => (a.date > b.date ? -1 : 1));
+
+  const sortedPosts = posts.sort((a, b) => (a.date > b.date ? -1 : 1));
+
+  // Cache the results
+  postsCache = sortedPosts;
+  postsCacheTime = now;
+
+  return sortedPosts;
 }
 
 export async function getPostBySlug(slug: string): Promise<Post | null> {

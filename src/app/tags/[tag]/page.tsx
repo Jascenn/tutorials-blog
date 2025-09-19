@@ -8,7 +8,7 @@ export async function generateStaticParams(){
   return Array.from(set).map(t=>({ tag: t }));
 }
 
-export default async function TagPage({ params }: { params: { tag: string }}){
+export default async function TagPage({ params }: any){
   const posts = await getAllPosts();
   const list = posts.filter(p => p.tags?.includes(params.tag));
   return (
@@ -27,4 +27,3 @@ export default async function TagPage({ params }: { params: { tag: string }}){
     </div>
   );
 }
-

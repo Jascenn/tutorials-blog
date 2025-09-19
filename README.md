@@ -25,6 +25,22 @@ npm run preview
 NEXT_BASE_PATH=/tutorials-blog npm run build
 ```
 
+### 本地一键发布（跳过 Actions）
+
+```bash
+# 项目仓库（例如 Jascenn/tutorials-blog）：
+npm run deploy:gh
+
+# 用户主页仓库（Jascenn/Jascenn.github.io）时：
+npm run deploy:gh -- --user-site
+
+# 指定自定义 basePath（覆盖默认）
+npm run deploy:gh -- --base /docs
+
+# 若已手动 build，则可跳过构建：
+npm run deploy:gh -- --no-build
+```
+
 ## 快速新建文章
 
 ```bash

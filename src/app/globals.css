@@ -15,3 +15,5 @@ pre{overflow:auto;background:#0a0a0a;color:#f5f5f5;padding:12px;border-radius:8p
 code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
 .shiki, .shiki code {background: #0a0a0a !important}
 .shiki code span {color: inherit}
+.btn{display:inline-block;padding:8px 16px;border:1px solid var(--border);border-radius:6px;background:var(--bg);transition:background 0.2s}
+.btn:hover{background:var(--border)}

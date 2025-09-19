@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yourname.github.io/tutorials-blog/sitemap.xml
