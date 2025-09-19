@@ -1,0 +1,35 @@
+{
+  "name": "tutorials-blog",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "preview": "python3 -m http.server -d out 3000 || python -m http.server -d out 3000",
+    "new:post": "node scripts/new-post.mjs"
+  },
+  "dependencies": {
+    "next": "15.3.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "gray-matter": "^4.0.3",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.0",
+    "remark-rehype": "^11.1.0",
+    "rehype-stringify": "^10.0.0",
+    "rehype-slug": "^6.0.0",
+    "rehype-autolink-headings": "^7.0.0",
+    "shiki": "^1.22.0",
+    "rehype-pretty-code": "^0.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "15.3.5"
+  }
+}
