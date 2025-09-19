@@ -5,7 +5,7 @@
     <link>https://jascenn.github.io/tutorials-blog</link>
     <description>基于 GitHub Pages 的教程博客</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 19 Sep 2025 20:56:50 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 20:57:25 GMT</lastBuildDate>
     <atom:link href="https://jascenn.github.io/tutorials-blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第一篇教程</title>
@@ -43,6 +43,13 @@
       <description>快速掌握 Markdown 的标题、强调、代码块等常用语法，并提供教程写作建议。</description>
       <category>Markdown</category>
       <category>写作</category>
+    </item>
+    <item>
+      <title>tutor_test</title>
+      <link>https://jascenn.github.io/tutorials-blog/blog/tutor_test</link>
+      <guid isPermaLink="true">https://jascenn.github.io/tutorials-blog/blog/tutor_test</guid>
+      <pubDate>Fri, 19 Sep 2025 20:57:25 GMT</pubDate>
+      <description>所罗门博客 https://codecodex.ai/ https://github.com/Wei-Shaw/codecodex.ai  https://use.codecodex.ai/admin-next/api-stats 按使用教…</description>
     </item>
   </channel>
 </rss>
