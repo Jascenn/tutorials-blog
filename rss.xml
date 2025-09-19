@@ -5,8 +5,17 @@
     <link>https://jascenn.github.io/tutorials-blog</link>
     <description>基于 GitHub Pages 的教程博客</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 19 Sep 2025 20:56:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 20:56:50 GMT</lastBuildDate>
     <atom:link href="https://jascenn.github.io/tutorials-blog/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第一篇教程</title>
+      <link>https://jascenn.github.io/tutorials-blog/blog/my-first-post</link>
+      <guid isPermaLink="true">https://jascenn.github.io/tutorials-blog/blog/my-first-post</guid>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
+      <description>用一两句话概括本文要点。</description>
+      <category>前端</category>
+      <category>工具</category>
+    </item>
     <item>
       <title>部署联通性测试</title>
       <link>https://jascenn.github.io/tutorials-blog/blog/deploy-check</link>
